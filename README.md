@@ -1,2 +1,2 @@
-# PCS_-Listas_de_Exercicios
-PCS, itens das listas de exercicios Java
+# PCS - Projeto e Construção de Sistemas.
+Listas de exercicios para aprendizado da linguagem Java.
