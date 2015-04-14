@@ -1,0 +1,51 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package lista1ex2;
+
+/**
+ *
+ * @author LABCCET
+ */
+public class Lista1Ex2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        //L1_ex2: Desenvolva um programa em Java que defina duas variáveis
+        //com números inteiros(a,b), inicializadas no próprio programa e imprima
+        //os seguintes valores:
+        
+        int a=7;
+        int b=4;
+                
+                
+        System.out.println("Variável a = " + a + " e variável b = " + b);
+        //a)Soma de a e b;
+                System.out.println("a + b = " + (a + b));
+        //b)Multiplicação de a por b,
+        System.out.println("a * b = " + (a * b));
+        //c)Subtração de a por b,
+        System.out.println("a - b = " + (a - b));
+        //d)O resto da divisão de a por b,
+        System.out.println("a mod b = " + ( a % b));
+        //e)O resultado da divisão inteira de a por b (resultado é um inteiro),
+        System.out.println("a / b = " + (a / b));
+        //f)O resultado da divisão de a por b (resultado pode não ser inteiro, ex: 10/3,
+        // /*coerções*/
+        float c = (float) a / b;
+        System.out.println("/* float */ a / b = " + c );
+        //g)O resultado da divisão de a por b 
+        //arredondado para um número inteiro,
+        int d = (int) Math.round(c);
+        System.out.println("/* arredondado*/ a / b = " + d);
+        
+        
+    }
+    
+}
