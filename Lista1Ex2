@@ -49,4 +49,20 @@ public class Lista1Ex2 {
     }
     
 }
-/* lista 1, exercício 2 */
+/* lista 1, exercício 2 
+    //L1_ex2: Desenvolva um programa em Java que defina duas variáveis
+        //com números inteiros(a,b), inicializadas no próprio programa e imprima
+        //os seguintes valores:
+        //a)Soma de a e b;
+        //b)Multiplicação de a por b,        
+        //c)Subtração de a por b,        
+        //d)O resto da divisão de a por b,        
+        //e)O resultado da divisão inteira de a por b (resultado é um inteiro),        
+        //f)O resultado da divisão de a por b (resultado pode não ser inteiro, ex: 10/3,
+        // /*coerções*/
+        //g)O resultado da divisão de a por b 
+        //arredondado para um número inteiro,
+        int d = (int) Math.round(c);
+
+
+*/
